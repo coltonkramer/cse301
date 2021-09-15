@@ -16,5 +16,4 @@ The program is written in Python
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * https://www.markdownguide.org/cheat-sheet/
