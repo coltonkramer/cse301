@@ -24,6 +24,5 @@ DecimalFormat to round numbers to 2 decimal places
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* I would like to add a GUI
+* I would like to add a GUI in the future
 ***
