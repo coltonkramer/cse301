@@ -1,4 +1,5 @@
-#Currency Converter
+
+# Currency Converter
 ## Author: Colton Kramer
 ### Module 1 CSE301 Language - Java
 ### Instructor: Brother Pineda
