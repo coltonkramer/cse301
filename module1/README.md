@@ -12,7 +12,7 @@ I simply use a switch block to convert everything to USD then a following switch
 
 Thank you for taking a look at my work!
 ***
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/G0tuzGJVQpg)
 
 # Development Environment
 
