@@ -1,0 +1,22 @@
+{% extends "counter/base.html" %}
+{% block content %}
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">{{author}}</th>
+        </tr>
+        <tr>
+            <th>Food</th>
+            <th>Calories</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for post in posts %}
+        <tr>
+            <td>{{post.food}}</td>
+            <td>{{post.calories}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

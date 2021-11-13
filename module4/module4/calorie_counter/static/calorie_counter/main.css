@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+    margin: 0 auto;
+
+}
+header{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+nav{
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav a{
+    padding: 5px;
+    width: 50%;
+    height: 25px;
+
+}
+main{
+    width: 60%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table, table td, table th{
+    /* text-align: center; */
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 10px;
+}
+.nav-buttons{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+.nav-buttons:hover{
+    background-color: white;
+    color: blue;
+}
