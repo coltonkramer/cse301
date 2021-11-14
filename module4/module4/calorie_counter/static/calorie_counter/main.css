@@ -12,6 +12,7 @@ header{
 h1{
     margin: 0 auto;
     text-align: center;
+    color: white;
 }
 nav{
     width: 60%;
@@ -38,7 +39,7 @@ main{
     justify-content: center;
 }
 table, table td, table th{
-    /* text-align: center; */
+
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -49,8 +50,8 @@ td,th{
     padding: 25px;
     margin: 20px;
 }
-.form-input{
-    padding: 5px;
+input{
+    margin: 15px 0;
 }
 .nav-buttons{
     background-color: blue;
@@ -60,4 +61,7 @@ td,th{
 .nav-buttons:hover{
     background-color: white;
     color: blue;
+}
+#about-info{
+    text-align: center;
 }
