@@ -5,12 +5,13 @@ body{
 }
 header{
     background-color: blue;
-    height: 100px;
+    height: 150px;
     width: 100%;
     margin: 0 auto;
 }
 h1{
     margin: 0 auto;
+    padding: 10px;
     text-align: center;
     color: white;
 }
