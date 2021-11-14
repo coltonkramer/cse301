@@ -27,8 +27,8 @@ I used vscode ,python 3 and django framework
 ## Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [StackOverflow]https://stackoverflow.com/
+* [Django Reference]https://www.djangoproject.com/
 
 ## Future Work
 
