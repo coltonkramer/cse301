@@ -7,7 +7,7 @@ def calorie_counter(request):
     if request.method == "POST":
         food = request.POST['food']
         calories = request.POST['calories']
-        print(food, calories)
+        # print(food, calories)
         ins = Foods(food=food, calories=calories)
         ins.save()
 
