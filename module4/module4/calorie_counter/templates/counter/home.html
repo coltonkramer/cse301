@@ -1,5 +1,12 @@
 {% extends "counter/base.html" %}
 {% block content %}
+<form class="form-style">
+    <label for="food">Enter your meal: </label><br>
+    <input name="food" id="food"class="form-input" type="text" placeholder="Pizza "><br>
+    <label for="calories">Enter the amount of calories: </label><br>
+    <input name="calories" id="calories" class="form-input" type="text" placeholder="(Numbers only)"><br>
+    <input type="submit" value="Save Entry"> 
+</form>
 <table>
     <thead>
         <tr>
@@ -11,12 +18,21 @@
         </tr>
     </thead>
     <tbody>
-        {% for post in posts %}
+        {% firstof "0" as sum %}
+
+        {% for food in food_list %}
+        
         <tr>
-            <td>{{post.food}}</td>
-            <td>{{post.calories}}</td>
+            <td>{{food}}</td>
+            <td>{{food.calories}}</td>
         </tr>
+        
         {% endfor %}
+        
+        <tr>
+            <td>Total:</td>
+            <td>{{sum}}</td>
+        </tr>
     </tbody>
 </table>
 {% endblock %}

@@ -30,7 +30,7 @@ nav a{
 
 }
 main{
-    width: 60%;
+    width: 75%;
     height: auto;
     margin: 10px auto;
     display: flex;
@@ -44,6 +44,13 @@ table, table td, table th{
 }
 td,th{
     padding: 10px;
+}
+.form-style{
+    padding: 25px;
+    margin: 20px;
+}
+.form-input{
+    padding: 5px;
 }
 .nav-buttons{
     background-color: blue;

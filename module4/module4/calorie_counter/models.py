@@ -1,6 +1,3 @@
-from django.db import models
-
-# Create your models here.
 import datetime
 from django.db import models
 from django.utils import timezone
@@ -9,3 +6,6 @@ from django.utils import timezone
 class Foods(models.Model):
      food = models.CharField(default="pizza", max_length=100)
      calories = models.CharField(default="100", max_length=5)
+
+     def __str__(self):
+          return self.food.title()
