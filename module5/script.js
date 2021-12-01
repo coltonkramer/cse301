@@ -4,9 +4,6 @@ require([
   "esri/views/MapView",
   "esri/widgets/Search",
   "esri/Graphic",
-  "esri/rest/route",
-  "esri/rest/support/RouteParameters",
-  "esri/rest/support/FeatureSet",
   "esri/rest/locator",
 ], function (
   esriConfig,
@@ -14,9 +11,6 @@ require([
   MapView,
   Search,
   Graphic,
-  route,
-  RouteParameters,
-  FeatureSet, 
   locator
 ) {
   esriConfig.apiKey =
@@ -102,8 +96,5 @@ require([
       view: view,
     });
     view.ui.add(search, "bottom-right");
-    
-
-  
 
   });
