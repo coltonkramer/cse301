@@ -13,9 +13,12 @@ require([
   Graphic,
   locator
 ) {
+
+  // personal key you get when creating an account
   esriConfig.apiKey =
     "AAPKb5e85b9a05094518bae3e354702dd925tXnugQuLKZ1E2-8mqOGMcgwYGeXie6ZNF0QnWLyYdKUUxpgHygzy-t9CITenrolG";
 
+    // base map layer... different base maps will have different asthetic and functional features to use.
   const map = new Map({
     basemap: "arcgis-navigation", // Basemap layer service
   });
@@ -42,7 +45,7 @@ require([
         select.appendChild(option);
       });
 
-      view.ui.add(select, "bottom-right");
+      view.ui.add(select, "top-right");
 
       function findPlaces(category, pt) {
         locator.addressToLocations(locatorUrl, {
@@ -73,7 +76,8 @@ require([
     
                 popupTemplate: {
                   title: "{PlaceName}", // Data attribute names
-                  content: "{Place_addr}"
+                  id: "popUpTemplate",
+                  content: "{Place_addr}",
                 }
              }));
           });
@@ -95,6 +99,7 @@ require([
       //Add Search widget
       view: view,
     });
-    view.ui.add(search, "bottom-right");
+    view.ui.add(search, "top-right");
+    search.setAttribute("style", "margin-bottom: 75px");
 
   });

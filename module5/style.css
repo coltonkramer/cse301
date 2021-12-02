@@ -5,4 +5,24 @@ body,
     margin: 0;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+header{
+    background-color: #F7F1F8;
+
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A24F0B;
+    color: #F7F1F8;
+    width: 500px;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    margin: 25px;
 }
