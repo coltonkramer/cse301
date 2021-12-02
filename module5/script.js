@@ -100,6 +100,4 @@ require([
       view: view,
     });
     view.ui.add(search, "top-right");
-    search.setAttribute("style", "margin-bottom: 75px");
-
   });
